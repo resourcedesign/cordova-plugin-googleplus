@@ -44,7 +44,7 @@
       <uses-permission android:name="android.permission.GET_ACCOUNTS" />
       <uses-permission android:name="android.permission.USE_CREDENTIALS" />
     </config-file>
-
+    <framework src="com.facebook.android:facebook-android-sdk:4.8.+"/>
     <source-file src="src/android/GooglePlus.java" target-dir="src/nl/xservices/plugins"/>
   </platform>
 
